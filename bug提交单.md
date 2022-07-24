@@ -1,10 +1,10 @@
 ---
 layout: default
-title: bug提交单（一）
+title: 自动化提交bug单（一）
 nav_order: 3
 ---
 
-# Bug提交单 in Unreal Engine
+# 自动化提交bug单 in Unreal Engine
 
 ## 需求
 在我们的流程里，美术师经常需要设置曲线或者polygon作为PCG工具的输入，比如拿道路工具举例，美术需要在unreal里设置曲线，然后cook生成道路，有时候会发现cook完之后，生成的道路跟预想的不一样，或者有很明显的错误，这时候就需要call TA同学来检查了，一般是截图+position告诉TA，然后TA打开UE打开关卡，然后找到那根曲线，cook并打开houdini。。流程特别长，有时候TA没空等闲下来后去找聊天记录都不知道在哪个群里了。
