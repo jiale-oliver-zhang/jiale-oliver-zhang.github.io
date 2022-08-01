@@ -1,7 +1,6 @@
 ---
 layout: default
 title: spline 数据迁移
-nav_order: 4
 ---
 # spline 数据迁移
 
