@@ -27,3 +27,16 @@ HOUDINIPATH/
                     mysop/
                         MyNodeExample.hda
                         MyNodeExample.txt
+
+
+
+PySide2 代码必须从 Houdini 的主线程执行。这意味着来自场景文件的 Houdini 模块，该模块在加载场景文件时运行，或者来自工具架工具的脚本选项卡。
+
+不要在 Python shell 中运行下面的示例代码。它不起作用，甚至可能使 Houdini 崩溃。
+
+https://www.sidefx.com/docs/houdini/hom/cb/qt.html
+https://www.sidefx.com/docs/houdini/hom/hou/qt/mainWindow.html
+
+
+load ui
+https://www.sidefx.com/forum/topic/49092/
